@@ -1,0 +1,9 @@
+@startuml cne
+    skinparam ClassAttributeIconSize 0
+    
+    class NumeroEntero {
+        -z : Int
+        +NumeroEntero(ne : Int)
+        +obtNumeroEntero() : Int
+    }
+@enduml
