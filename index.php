@@ -1,5 +1,5 @@
 <?php
-	// Se genera un NumeroEntero a partir del numero proporcionado en un cuadro de edición
+	// Se genera un NumeroEntero a partir del numero proporcionado en un cuadro de ediciï¿½n
 	// http://localhost/poo9cma2021/1_NumeroEntero/index.php
 	if( isset($_POST['btnenviar']) && $_POST['btnenviar']){
 		include_once("NumeroEntero.php");
@@ -15,6 +15,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
    </head>
    <body>
+      <h1>Numero Entero del 04 de junio de 2021</h1>
       <form action="index.php" method="post">
          <div class="form-group">
             <label for="txtn">N&uacute;mero:</label>
